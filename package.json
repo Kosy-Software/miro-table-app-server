@@ -1,0 +1,20 @@
+{
+  "name": "miro-table-app-server",
+  "version": "1.0.0",
+  "description": "Kosy-Miro integration server side (via AWS lambda)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kosy-Software/miro-table-app-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kosy-Software/miro-table-app-server/issues"
+  },
+  "homepage": "https://github.com/Kosy-Software/miro-table-app-server#readme"
+}
