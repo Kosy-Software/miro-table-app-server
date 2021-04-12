@@ -29,6 +29,6 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: ${{ secrets.AWS_REGION }}
-          function_name: say-hello
+          function_name: get-miro-jwt-token
           zip_file: bundle.zip
           environment: MIRO_CLIENT_ID=${{ secrets.MIRO_CLIENT_ID }},MIRO_CLIENT_SECRET=${{ secrets.MIRO_CLIENT_SECRET }}
