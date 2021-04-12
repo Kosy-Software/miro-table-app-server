@@ -31,3 +31,4 @@ jobs:
           aws_region: ${{ secrets.AWS_REGION }}
           function_name: say-hello
           zip_file: bundle.zip
+          environment: CLIENT_ID=${{ secrets.MIRO_CLIENT_ID }},CLIENT_SECRET=${{ secrets.MIRO_CLIENT_SECRET }}
