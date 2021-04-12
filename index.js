@@ -1,7 +1,7 @@
 
 exports.handler = async (event) => {
     var jwt = require('jsonwebtoken');
-    let token = jwt.sign({}, process.env.MIRO_CLIENT_SECRET, { issuer: process.env.MIRO_CLIENT_ID, expiresIn: "00:05:00" });
+    let token = jwt.sign({}, process.env.MIRO_CLIENT_SECRET, { issuer: process.env.MIRO_CLIENT_ID, expiresIn: 300 });
 
     const response = {
         statusCode: 200,
