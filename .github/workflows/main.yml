@@ -13,10 +13,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install and build
+      - name: Install
         run: |
           yarn install
-          yarn run build --if-present
         env:
           CI: true
       - name: zip
